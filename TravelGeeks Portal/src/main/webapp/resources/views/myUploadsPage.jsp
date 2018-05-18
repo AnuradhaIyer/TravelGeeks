@@ -10,13 +10,13 @@
 		<div class="container-fluid">
 			<div class="alert alert-success" ng-show="showSuccessAlert">
 				<button type="button" class="close"
-					data-ng-click="switchBool('showSuccessAlert')">×</button>
+					data-ng-click="switchBool('showSuccessAlert')">Ã—</button>
 				<strong>Done!</strong> {{successTextAlert}}
 			</div>
 
 			<div class="alert alert-danger" ng-show="showErrorAlert">
 				<button type="button" class="close"
-					data-ng-click="switchBool('showErrorAlert')">×</button>
+					data-ng-click="switchBool('showErrorAlert')">Ã—</button>
 				<strong>Error!</strong> {{errorTextAlert}}
 			</div>
 
@@ -41,20 +41,6 @@
 
 					<div class="overlay">
 						<table id="listTable"
-							class="table table-striped table-bordered table-condensed table table-hover table-responsive w-auto">
-							<!-- <thead>
-								<tr class="info">
-									<th height="70"><p class="text-center">Place </p></th>
-									<th height="70"><p class="text-center">Place Name</p></th>
-									<th height="70"><p class="text-center">Place Description</p></th>
-									<th height="70"><p class="text-center">Category</p></th>
-									<th height="70"><p class="text-center">Month Visited</p></th>
-									<th height="70"><p class="text-center">Things To Do</p></th>
-									<th height="70"><p class="text-center">Users Interested</p></th>
-									<th height="70" colspan="2"><p class="text-center">Action</p></th>
-								</tr>
-							</thead> -->
-							<!-- style="width:60;height:60;" -->
 							<div class=" row">
 								<div class="col-md-8 row">
 									<div class="col-md"
@@ -82,14 +68,9 @@
 										<div class='' align="center"
 											style="text-align: left; padding: 41px;">{{a['placeDescription']}}</div>
 
-
-										<!-- <div class='' align="center" style="text-align:left;padding: 41px;">{{a['thingsToDo']}}></div> -->
-										<!-- 	<div class='' align="center">{{a['usersInterested']}}</div> -->
-									</div>
+										</div>
 								</div>
 								<div>
-
-									<!-- put static content here & provide class namse as grid-item -->
 
 
 									<div class="w3-col l4 col-md-3">
@@ -142,40 +123,9 @@
 											</ul>
 										</div>
 										<hr>
-										<!-- Labels / tags -->
-
-										<!-- <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Tags</h4>
-    </div>
-    <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-    </p>
-    </div>
-  </div> -->
-										<!-- 
-															<td><button type="submit" ng-click=" "
-											class="btn btn-default btn-sm">
-											<span class="glyphicon glyphicon-thumbs-up"> </span> Like
-										</button>
-										<button type="submit" ng-click=" "
-											class="btn btn-default btn-sm">
-											
-											<span class="glyphicon glyphicon-thumbs-up"> </span> Dislike
-										</button> -->
-										</td>
-										</tr>
-						</table>
-					</div>
-
-				</div>
-			</div>
+										
 		</div>
-	</div>
-
+	</div
 
 </body>
+									</html>
