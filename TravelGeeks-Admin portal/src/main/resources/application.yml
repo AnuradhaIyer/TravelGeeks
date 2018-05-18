@@ -1,0 +1,12 @@
+server:
+  port: 8440
+  ssl:
+    enabled: true
+    key-alias: spring
+    key-store: 
+    key-store-password: 
+security:
+  saml2:
+      metadata-url: 
+      
+      
