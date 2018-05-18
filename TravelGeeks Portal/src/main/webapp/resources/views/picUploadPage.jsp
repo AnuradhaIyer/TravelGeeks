@@ -3,13 +3,7 @@
 <head>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<!-- <link rel=”stylesheet” href=”widgEditor/css/widgEditor.css” />
-<script src=”widgEditor/scripts/widgEditor.js”></script> -->
-
-
 <script type="text/javascript">
-
-
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,12 +44,7 @@ blockquote {
 			</div>
 
 			<nav class="navbar" role="navigation" style="background: #6b5b95">
-				<!-- <div style="background: linear-gradient(to left, rgb(142, 158, 171), rgb(238, 242, 243));"> -->
 				<div class="panel-heading" style="color: whitesmoke">
-
-					<!-- <h4>
-						<strong>Welcome, {{authData.currentUser.userName}}</strong>
-					</h4> -->
 					<a href="#/login" class="btn btn-xs btn-primary pull-right"
 						style="margin: 15px; margin-top: -1px; background-color: violet; padding: 7px 7px; font-size: 17px; line-height: 1.5; border-radius: 6px;"><span
 						class="glyphicon glyphicon-log-out"></span> LOGOUT</a> <a
@@ -106,10 +95,7 @@ blockquote {
 						src="https://www.youtube.com/embed/MED4AgH2kk8" frameborder="0"
 						allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
-
-				<!-- <img src="/resources/views/TravelStory.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
- -->
-			</div>
+		</div>
 		</div>
 
 
@@ -187,26 +173,6 @@ blockquote {
 
 				<div class="row">
 
-					<!-- <div class="col-sm-4 col-md-10 col-lg-6">
-               <h4 align="center">Actual Food Wasted</h4>
-               <br/>
-		 <div class="container" style="height: 200px; width: 60%;" align="left" >
-          <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" 
-             chart-dataset-override="datasetOverride" data-ng-model="line">
-          </canvas>
-        </div>
-        </div>
-         -->
-					<!-- <div class="col-sm-4 col-md-10 col-lg-6" >
-               <h4 align="center">Predicted Food Waste</h4>
-               <br/>
-        <div class="container" style="height: 300px; width: 60%;" align="right" >
-          <canvas id="line1" class="chart chart-line" chart-data="data1" chart-labels="labels1" chart-series="series1" chart-options="options1" 
-             chart-dataset-override="datasetOverride1" data-ng-model="line1">
-          </canvas>
-        </div>
-        </div> -->
-
 				</div>
 
 
@@ -256,8 +222,5 @@ blockquote {
 			</div>
 		</div>
 
-
-
-		<div ng-include src="'/resources/views/footer.jsp'"></div>
 </body>
 </html>
