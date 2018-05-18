@@ -92,7 +92,6 @@ div.ex3 {
 <body>
 
 	<nav class="navbar" role="navigation" style="background: #6b5b95">
-		<!-- <div style="background: linear-gradient(to left, rgb(142, 158, 171), rgb(238, 242, 243));"> -->
 		<div class="panel-heading" style="color: whitesmoke">
 
 			<a href="#/login" class="btn btn-xs btn-primary pull-right"
@@ -128,44 +127,12 @@ div.ex3 {
 			<div align="center">Month Visited:{{i['monthVisited']}}</div>
 			<br>
 			<div align="center" style="text-align: left; padding: 36px;">
-				{{i['placeDescription']}}
-				<!-- {{i['thingsToDo']}} -->
+				{{i['placeDescription']}}	
 			</div>
-
-
-
-
-
-
 
 		</div>
 
-
-
-
 		<div align="center">{{i['usersInterested']}}</div>
-
-
-
-
-
-
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
