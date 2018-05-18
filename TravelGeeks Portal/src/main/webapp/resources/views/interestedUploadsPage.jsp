@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!-- <script src="/path/to/masonry.pkgd.min.js"></script>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
-
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
@@ -42,19 +38,18 @@ div.ex3 {
 
 
 				<button type="button" class="close"
-					data-ng-click="switchBool('showSuccessAlert')">×</button>
+					data-ng-click="switchBool('showSuccessAlert')">Ã—</button>
 				<strong>Done!</strong> {{successTextAlert}}
 			</div>
 
 			<div class="alert alert-danger" ng-show="showErrorAlert">
 				<button type="button" class="close"
-					data-ng-click="switchBool('showErrorAlert')">×</button>
+					data-ng-click="switchBool('showErrorAlert')">Ã—</button>
 				<strong>Error!</strong> {{errorTextAlert}}
 			</div>
 
 
 			<nav class="navbar" role="navigation" style="background: #6b5b95">
-				<!-- <div style="background: linear-gradient(to left, rgb(142, 158, 171), rgb(238, 242, 243));"> -->
 				<div class="panel-heading" style="color: whitesmoke">
 
 					<a href="#/login" class="btn btn-xs btn-primary pull-right"
@@ -93,10 +88,9 @@ div.ex3 {
 						<br>
 						<div align="center" style="text-align: left; padding: 36px;">
 							{{i['placeDescription']}}
-							<!-- {{i['thingsToDo']}} -->
+							
 						</div>
-
-
 
 					</div>
 </body>
+</html>
