@@ -8,9 +8,11 @@ Travelers are keen to read about the kind of experiences that is awaiting them. 
 
 # Features
 
+* LANDING PAGE
 <img width="1247" alt="land" src="https://user-images.githubusercontent.com/31361652/40218722-3f7ca22c-5a27-11e8-9480-93ead867be14.png">
-
+* LOGIN PGE
 ![port1](https://user-images.githubusercontent.com/31361652/40218393-e5587a38-5a25-11e8-89d7-8ad4181a1654.png)
+
 
 <img width="1260" alt="port2" src="https://user-images.githubusercontent.com/31361652/40218394-e574857a-5a25-11e8-8bb1-4311c17b6158.png">
 
